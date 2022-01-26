@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="">
+      <meta name="author" content="">
+  
+      <title>Clinica Coral</title>
+    
+      <!-- css -->
+      <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+      <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="plugins/cubeportfolio/css/cubeportfolio.min.css">
+      <link href="css/style.css" rel="stylesheet">
+    <link id="t-colors" href="color/default.css" rel="stylesheet">
+  
+  </head>
+  <body>
+    <!-- navegador -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+      <div class="top-area">
+          <div class="container">
+              <div class="row">
+                  <div class="col-sm-6 col-md-6">
+                  <p class="bold text-left">Lunes - Sabado 8am to 9pm </p>
+                  </div>
+                  <div class="col-sm-6 col-md-6">
+                  <p class="bold text-right">Puede llamar al +62 008 65 001</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="container navigation">
+      
+          <div class="navbar-header page-scroll">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                  <i class="fa fa-bars"></i>
+              </button>
+              <a class="navbar-brand" href="Home.html">
+                  <img href="Home.html" class="" src="./img/dummy/Logo.png" alt="" width="40" height="40" style="display:inline-block"> Clinica dental Coral
+
+              </a>
+          </div>
+
+          <!-- Aqui los Links-->
+          <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="Home.html">Inicio</a></li>
+              <li><a href="Agendarcita.html">Agendar cita</a></li>
+              <li><a href="Servicios.html">Servicios</a></li>
+              <li><a href="contacta.html">Contacto</a></li>
+            </ul>
+          </div>
+          
+      </div>
+   
+  </nav><br><br><br><br><br><br><br>
+  <!-- navegador -->
+    <div class="container p-4">
+      <div class="row">
+        <div class="col-4">
+          <h1>Agendar cita</h1>
+          <break></break>
+          <break></break>
+          <break></break>
+          <h5>
+            Llena el siguiente formulario para agendar una cita. 
+          </h5>
+
+          <form id="form">
+            <div class="form-group">
+              <input
+                type="text"
+                name="txtNombre"
+                id="txtNombre"
+                class="form-control"
+                placeholder="Nombre"
+              />
+            </div>
+
+            <div class="form-group">
+              <input
+                type="text"
+                name="txtApellido"
+                id="txtApellido"
+                class="form-control"
+                placeholder="Apellido"
+              />
+            </div>
+
+            <div class="form-group">
+              <input
+                type="text"
+                name="txtCorreo"
+                id="txtCorreo"
+                class="form-control"
+                placeholder="Correo electrónico"
+              />
+            </div>
+
+            <div class="form-group">
+              <input
+                type="number"
+                name="txtNumero"
+                id="txtNumero"
+                class="form-control"
+                placeholder="Número de teléfono"
+              />
+            </div>
+
+            <div class="form-group">
+              <input
+                type="date"
+                name="txtFecha"
+                id="txtFecha"
+                class="form-control"
+                placeholder="Fecha"
+              />
+            </div>
+
+            <div class="form-group">
+              <input
+                type="time"
+                name="txtHora"
+                id="txtHora"
+                class="form-control"
+                placeholder="Hora"
+              />
+            </div>
+
+            <div class="form-group">
+              <select class="combo" id="cmbServicio">
+                <option value="Seleccione Serv">Selec Servicios</option>
+                <option value="Odontologia">Odontología</option>
+                <option value="Prostodoncia">Prostodoncia</option>
+                <option value="Restauracion">Restauración facial</option>
+                <option value="Maxilofacial">Maxilofacial</option>
+                <option value="Ortodoncia">Ortodoncia</option>
+                <option value="CirugiaOral">Cirugía Oral</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <select class="combo" id="cmbEspecialista">
+                <option value="Seleccione Espec">Selec Especialista</option>
+                <option value="Dr.Ramos">Dr. Ramos</option>
+                <option value="Dra.Escalante">Dra. Escalante</option>
+                <option value="Dr.Villalobos">Dr. Villalobos</option>
+                <option value="Dra.Carbajal">Dra. Carbajal</option>
+                <option value="Dr.Fernández">Dr. Fernández</option>
+              </select>
+            </div>
+
+            <div class="btn-toolbar">
+              <button id="btnGuardar" class="btn btn-primary mt-2">Guardar</button>
+            </div>
+          </form>
+        </div>
+
+        <div class="col-8">
+          <table id="tblDatos" class="table table-striped">
+            <caption>
+              Lista de Citas
+            </caption>
+            <thead>
+              <th>Nombre</th>
+              <th>Apellido</th>
+              <th>Correo</th>
+              <th>Numero</th>
+              <th>Fecha</th>
+              <th>Hora</th>
+              <th>Servicio</th>
+              <th>Especialista</th>
+              <th></th>
+              <th></th>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+                   <!-- Footer -->
+                   <br><br><br>
+                   <footer class="bg-dark ">
+                    <div class="container p-4 mt-3 whiteTextYes text-white">
+                      <div class="row">
+                        <div class="col-lg-6 col-md-12 mb-4 text-white">
+                          <h5 class="mb-3 BlueTextYes">Clínica Dental Coral</h5>
+                          <p>
+                          En pro de una adecuada salud dental,Clínica Dental Coral le brinda los servicios de la 
+                          clínica odontológica, la mejor del pais, misma que es atendida por el los mejores profecionales.
+                          Ofrecemos un servicio integral al asociado y a sus familiares.
+                          </p>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mb-4 text-white">
+                          <h5 class="mb-3 BlueTextYes">Links</h5>
+                          <ul class="list-unstyled mb-0 text-white">
+                            <li class="mb-1 ">
+                              <p href="#!" class="text-primary font-weight-bold" style="color: rgb(49, 74, 219);">Respuestas y preguntas</p>
+                            </li>
+                            <li class="mb-1">
+                              <p href="#!" class="text-primary" style="color: rgb(49, 74, 219);">Entrega</p>
+                            </li>
+                            <li class="mb-1">
+                              <p href="#!" style="color: rgb(49, 74, 219);" class="text-primary">Precios</p>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mb-4 text-white">
+                          <h5 class="mb-1 BlueTextYes">Abierto</h5>
+                          <table class="table text-white">
+                            <tbody>
+                              <tr>
+                                <td>Lun - Vie:</td>
+                                <td>8am - 9pm</td>
+                              </tr>
+                              <tr>
+                                <td>Sab - Dom:</td>
+                                <td>8am - 1pm</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="text-center p-3 text-white">
+                      © 2021 Copyright: Stema
+                    </div>
+                   
+                  </footer>
+           
+                <!-- Footer -->
+
+
+    <!--*************************************************************-->
+    <script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-firestore.js"></script>
+    <script>
+      const firebaseConfig = {
+        apiKey: "AIzaSyBJUWLx8vqD-Svn_s1-Pi4nshwcb5dEZo4",
+        authDomain: "crud-js-dee10.firebaseapp.com",
+        projectId: "crud-js-dee10",
+        storageBucket: "crud-js-dee10.appspot.com",
+        messagingSenderId: "937204257912",
+        appId: "1:937204257912:web:70cdd5921c495bf93dc98d",
+      };
+
+      //INICIALIZA APLICACION
+      firebase.initializeApp(firebaseConfig);
+    </script>
+
+<script src="js/jquery.min.js"></script>	 
+<script src="js/bootstrap.min.js"></script>
+    <script src="js/agendarcita.js"></script>
+  </body>
+</html>

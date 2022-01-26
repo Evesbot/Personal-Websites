@@ -1,0 +1,51 @@
+
+body {
+  height: 400px;
+  background-image: url('imagenes/home.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+
+
+#primero {
+  margin: auto;
+  width: 300px;
+  height: 300px;
+  position:absolute;
+  top: 300px;
+  left: 150px; 
+  background-color: lightblue;
+  border-style:double;
+  border-color: black;
+}
+
+#segundo {
+  margin: auto;
+  width: 300px;
+  height: 300px;
+  position:absolute;
+  top: 300px;
+  left: 500px; 
+  background-color: lightblue;
+  border-style:double;
+  border-color: black;
+}
+
+#tercero {
+  margin: auto;
+  width: 300px;
+  height: 300px;
+  position:absolute;
+  top: 300px;
+  left: 850px; 
+  background-color: lightblue;
+  border-style:double;
+  border-color: black;
+}
+
+.Imagensota{
+  background-color: aqua;
+}
+

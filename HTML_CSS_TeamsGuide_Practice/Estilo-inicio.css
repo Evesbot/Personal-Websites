@@ -1,0 +1,221 @@
+@charset "utf-8";
+.cabecera{
+    background-color: #CE70DB;
+    background-color: #7464D1;
+    margin-top: -7px;
+    margin-bottom: -2px;
+}
+
+
+.logo {
+    display: inline-block;
+    min-height: 0px;
+    float: none;
+    padding-top: 16px;
+    margin-left: 25px;
+    padding-bottom: 5px;
+    margin-bottom: 0px;
+}
+
+.contacto {
+    display: inline-block;
+    font-weight: bold;
+    font-family: Verdana;
+    color: white;
+    margin-bottom: -4px;
+    padding-bottom: 9px;
+    margin-left: 1026px;
+    margin-top: -19px;
+    padding-top: 0px;
+}
+.logearse {
+    display: inline-block;
+    padding-left: 31px;
+    font-family: Verdana;
+    color: white;
+    padding-bottom: 0px;
+}
+.busqueda {
+    display: inline-block;
+    color: white;
+    padding-bottom: 0px;
+    max-height: none;
+    padding-top: 0px;
+    margin-right: 37%;
+    margin-left: 262px;
+    margin-bottom: 31px;
+    float: right;
+    margin-top: -44px;
+}
+
+.teFooter {
+    color: #FFFFFF;
+    font-weight: bold;
+    margin-top: 12px;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 12px;
+    padding-left: 23%;
+}
+.pfooter {
+    background-color: #636363;
+}
+
+
+* {
+				margin:0px;
+				padding:0px;
+			}
+			
+			#header {
+				margin:auto;
+				width:500px;
+				font-family:Arial, Helvetica, sans-serif;
+			}
+			
+			ul, ol {
+				list-style:none;
+			}
+			
+			.nav > li {
+				float:left;
+			}
+			
+			.nav li a {
+				background-color:#7464D1;
+				color:#fff;
+				text-decoration:none;
+				padding:10px 12px;
+				display:block;
+			}
+			
+			.nav li a:hover {
+				background-color:black;
+			}
+			
+			.nav li ul {
+				display:none;
+				position:absolute;
+				min-width:140px;
+			}
+			
+			.nav li:hover > ul {
+				display:block;
+			}
+			
+			.nav li ul li {
+				position:relative;
+			}
+
+.cajaDeBusqueda {
+    margin-top: -5px;
+    padding-top: 4px;
+    padding-right: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    border-radius: 15px;
+    border-color: #585858;
+}
+			
+			.nav li ul li ul {
+				right:-140px;
+				top:0px;
+			}
+
+
+/*Aqui empieza el css*/
+.bIenvenido {
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+    font-weight: normal;
+    margin-top: 51px;
+    margin-left: 128px;
+    color: #5747bd;
+    font-style: normal;
+    font-size: 231%;
+    margin-bottom: 77px;
+}
+.PrimerCuadro {
+    background-color: #711BDC;
+    display: inline-block;
+    padding-top: 2%;
+    padding-right: 2%;
+    padding-left: 2%;
+    border-radius: 12px;
+    padding-bottom: 56px;
+    margin-left: 324px;
+}
+.ElTitulo1 {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    color: #FFFFFF;
+    margin-top: 40px;
+    font-weight: lighter;
+}
+.ParteAbajoColor {
+    color: #7bf7ce;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+    margin-top: 58px;
+}
+
+.ParteAbajoColor2 {
+    color: #7bf7ce;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+    padding-top: 11px;
+}
+
+
+.PrimerCuadro1 {
+    background-color: #711BDC;
+    display: inline-block;
+    padding-top: 2%;
+    padding-right: 2%;
+    padding-left: 2%;
+    border-radius: 12px;
+    padding-bottom: 56px;
+    margin-left: 99px;
+}
+.ElTitulo2 {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    color: #000000;
+    margin-top: 40px;
+    font-weight: lighter;
+}
+.ParteAbajoColor4 {
+    color: #66E3BA;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+    margin-top: 58px;
+}
+
+.ParteAbajoColor3 {
+    color: #62E9BC;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+    padding-top: 11px;
+}
+
+.PrimerCuadro2 {
+    background-color: #FFFFFF;
+    display: inline-block;
+    padding-top: 2%;
+    padding-right: 2%;
+    padding-left: 2%;
+    border-radius: 12px;
+    padding-bottom: 56px;
+    margin-left: 99px;
+    border: thick solid #8C8C8C;
+}
+.cuerpoMedio {
+    margin-bottom: 108px;
+}
+
+.Prueba77 {
+    background-image: url(Imagenes/Fondo1.png);
+    background-position: 28% 80%;
+    background-size: 102% auto;
+}
